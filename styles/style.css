@@ -22,7 +22,6 @@
   background-color: var(--background-color);
   color: var(--color);
   background-size: cover;
-  background-image: var(--first-linear-gradient),
-  var(--next-lineral-gradient);
+  background-image: var(--linear-gradient);
   background-attachment: fixed;
 }
