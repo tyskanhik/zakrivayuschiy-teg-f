@@ -10,6 +10,8 @@
     --weight-title: 700;
     --background-color: #fff;
     --color: #000;
+    --first-linear-gradient: repeating-linear-gradient(90deg, #d3d3d3, transparent 2px);
+    --next-lineral-gradient: repeating-linear-gradient(180deg, #d3d3d3 0.01%, #1a1a1a 100% 2px);
 }
 
 :root.theme-dark {
@@ -17,6 +19,8 @@
     --weight-title: 785;
     --background-color: #000;
     --color: #00CC14;
+    --first-linear-gradient: repeating-linear-gradient(90deg, #000, transparent 2px);
+    --next-lineral-gradient: repeating-linear-gradient(180deg, #007f0c 0.01%, #004306 100% 2px);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,5 +29,7 @@
         --weight-title: 785;
         --background-color: #000;
         --color: #00CC14;
+        --first-linear-gradient: repeating-linear-gradient(90deg, #000, transparent 2px);
+        --next-lineral-gradient: repeating-linear-gradient(180deg, #007f0c 0.01%, #004306 100% 2px);
     }
 }
