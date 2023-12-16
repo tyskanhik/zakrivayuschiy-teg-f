@@ -90,12 +90,39 @@
 }
 
 .section_card-image {
+  position: relative;
+}
+
+.card-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.content_cerd-text {
+.label {
+  position: absolute;
+  top: 25px;
+  right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem);
+  font-family: var(--accent-font), monospace;
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  text-shadow:
+    -1px 0 var(--background-color), 
+    0 1px var(--background-color), 
+    1px 0 var(--background-color), 
+    0 -1px var(--background-color);
+}
+
+@supports((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
+  .label {
+    -webkit-text-stroke: 1px var(--background-color);
+    text-stroke: 1px var(--background-color);
+    text-shadow: none
+  }
+} 
+
+.content_card-text {
   display: grid;
   gap: 27px;
   padding: 25px;
