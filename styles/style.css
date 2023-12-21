@@ -359,7 +359,7 @@
 }
 
 @media (375px <=width < 768px) {
-  .button_save {
+  .footer__button {
     flex-direction: column;
     gap: 8px;
   }
