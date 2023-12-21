@@ -157,6 +157,7 @@
     0 1px var(--background-color),
     1px 0 var(--background-color),
     0 -1px var(--background-color);
+  mix-blend-mode: difference;
   z-index: 1;
 }
 
@@ -183,7 +184,7 @@
   gap: 6px;
   padding-block-end: 25px;
   padding-inline-end: 25px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), monospace;
   font-size: 14px;
   line-height: 90%;
 }
@@ -343,7 +344,7 @@
   gap: 9px;
   align-items: center;
   width: clamp(19.125rem, 18.487rem + 2.723vw, 20.938rem);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), monospace;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

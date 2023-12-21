@@ -18,7 +18,6 @@
     /* ширина контента */
     --width: clamp(371px, 100%, 696px);
 
-
     --button-color: #000;
     --button-bg: #fff;
     --button-text: #fff;
