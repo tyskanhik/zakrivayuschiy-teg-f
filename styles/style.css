@@ -157,6 +157,7 @@
     0 1px var(--background-color),
     1px 0 var(--background-color),
     0 -1px var(--background-color);
+  z-index: 1;
 }
 
 @supports((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
@@ -389,4 +390,55 @@ dialog[open] {
   grid-template-columns: min-content 1fr;
   gap: 20px;
   align-items: center;
+}
+
+::backdrop {
+  backdrop-filter: blur(2px);
+}
+
+/* фильтры */
+
+.card-image {
+  /* filter: brightness(0.4); 1 */
+  /* filter: saturate(235%) invert(99%); */
+  /* filter: sepia(60%); */
+  /* filter: saturate(30%); */
+  /* filter: invert(75%); */
+  /* filter: hue-rotate(90deg); */
+  /* backdrop-filter: grayscale(30%); */
+  /* backdrop-filter: opacity(20%); */
+  /* backdrop-filter: blur(2px); */
+  /* filter: contrast(274%); */
+  /* filter: brightness(116%) saturate(189%); */
+}
+
+.brightness {
+  filter: brightness(116%) saturate(189%);
+}
+
+.saturate {
+  filter: brightness(120%) saturate(104%) contrast(191%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(30deg);
+}
+
+.sepia {
+  filter: sepia(10%);
+}
+.saturate_invert {
+  filter: saturate(235%) invert(99%);
+}
+
+.invert {
+  filter: invert(10%);
+}
+
+.contrast {
+  filter: contrast(250%);
+}    
+
+.blur {
+  filter: blur(1px);
 }
