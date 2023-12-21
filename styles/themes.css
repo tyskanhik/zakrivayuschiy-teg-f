@@ -10,10 +10,10 @@
     --weight-title: 700;
     --background-color: #fff;
     --color: #000;
-    --linear-gradient: 
-        repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), 
-        repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px), 
-        linear-gradient( #e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100%);
+    --linear-gradient:
+        repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(#e7e7e7 0%, #e7e7e7 0.1%, #1a1a1a 100%);
 
     /* heart */
     --contour: #000;
@@ -26,9 +26,9 @@
     --background-color: #000;
     --color: #00CC14;
     --linear-gradient:
-        repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px), 
-        repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px), 
-        linear-gradient( #007f0c 0%, #004306 100%);
+        repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px),
+        linear-gradient(#007f0c 0%, #004306 100%);
 
     --button-color: #00CC14;
     --button-bg: #000;
@@ -46,10 +46,10 @@
         --background-color: #000;
         --color: #00CC14;
         --linear-gradient:
-            repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px), 
-            repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px), 
-            linear-gradient( #007f0c 0%, #004306 100%);
-        
+            repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px),
+            linear-gradient(#007f0c 0%, #004306 100%);
+
 
         --button-color: #00CC14;
         --button-bg: #000;
