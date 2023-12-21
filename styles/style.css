@@ -398,20 +398,6 @@ dialog[open] {
 
 /* фильтры */
 
-.card-image {
-  /* filter: brightness(0.4); 1 */
-  /* filter: saturate(235%) invert(99%); */
-  /* filter: sepia(60%); */
-  /* filter: saturate(30%); */
-  /* filter: invert(75%); */
-  /* filter: hue-rotate(90deg); */
-  /* backdrop-filter: grayscale(30%); */
-  /* backdrop-filter: opacity(20%); */
-  /* backdrop-filter: blur(2px); */
-  /* filter: contrast(274%); */
-  /* filter: brightness(116%) saturate(189%); */
-}
-
 .brightness {
   filter: brightness(116%) saturate(189%);
 }
@@ -427,6 +413,7 @@ dialog[open] {
 .sepia {
   filter: sepia(10%);
 }
+
 .saturate_invert {
   filter: saturate(235%) invert(99%);
 }
@@ -437,7 +424,7 @@ dialog[open] {
 
 .contrast {
   filter: contrast(250%);
-}    
+}
 
 .blur {
   filter: blur(1px);
