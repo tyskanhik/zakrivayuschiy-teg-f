@@ -13,17 +13,6 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-.header__container-logo:focus {
-    outline: none;
-}
-
-.header__container-logo:focus-visible {
-    outline: 1px solid var(--color);
-}
-
-.theme-menu__button:disabled::before {
-    animation: arrow 0.5s infinite alternate-reverse ease-in-out;
-}
 
 @keyframes arrow {
     0% {
@@ -35,89 +24,63 @@
     }
 }
 
-.theme-menu__button {
-    transition: opacity 0.3s ease;
+.sparks {
+    opacity: 0;
 }
 
-.theme-menu__button::after {
-    transition: transform 0.3s ease;
-}
-
-.theme-menu__button:focus-visible::after {
-    transform: scaleX(1);
-}
-
-.button_pseudo {
-    transition:
-        color 0.5s ease-in-out,
-        box-shadow 0.3s ease;
-}
-
-.button_pseudo::before {
-    transition: translate 0.5s ease-in-out;
-    translate: -100%;
-}
-
-.button_pseudo:hover::before {
-    translate: 0;
-}
-
-.card__icon-button {
-    transition: outline 0.3s ease;
-}
 
 /* hover */
 
 .card__icon-button .core {
-    transition: fill 0.3s 0.03s ease;
+    transition: fill 0.3s 0.03s linear;
 }
 
 .card__icon-button:hover .core {
     fill: var(--contour);
-    transition: fill 0.3s ease;
+    transition: fill 0.3s linear;
 }
 
 .card__icon-button .main-body {
-    transition: fill 0.3s ease;
+    transition: fill 0.3s linear;
 }
 
 .card__icon-button:hover .main-body {
     fill: var(--contour);
-    transition: fill 0.3s 0.05s ease;
+    transition: fill 0.3s 0.05s linear;
 }
 
 /* active */
 
 .card__icon-button:active .core {
     fill: var(--main-body);
-    transition: fill 0.3s ease;
+    transition: fill 0.3s linear;
 }
 
 .card__icon-button:active .main-body {
     fill: var(--main-body);
-    transition: fill 0.3s 0.05s ease;
+    transition: fill 0.3s 0.05s linear;
 }
 
 /* like */
 
 .like-icon.is-liked .core {
     fill: var(--main-body);
-    transition: fill 0.3s ease;
+    transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
     fill: var(--main-body);
-    transition: fill 0.3s 0.05s ease;
+    transition: fill 0.3s 0.05s linear;
 }
 
 .like-icon.is-liked .contour {
     fill: var(--main-body);
-    transition: fill 0.3s 0.06s ease;
+    transition: fill 0.3s 0.06s linear;
 }
 
 .like-icon .contour {
     fill: var(--contour);
-    transition: fill ease;
+    transition: fill linear;
 }
 
 @keyframes scale {
