@@ -96,9 +96,6 @@
   position: absolute;
   top: 0;
   left: -15px;
-}
-
-.theme-menu__button:disabled::before {
   animation: arrow 0.5s infinite alternate-reverse ease-in-out;
 }
 
