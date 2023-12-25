@@ -16,11 +16,11 @@
 
 @keyframes arrow {
     0% {
-        transform: translate(0px);
+        transform: translate(-6px);
     }
 
     100% {
-        transform: translate(4px);
+        transform: translate(-2px);
     }
 }
 
